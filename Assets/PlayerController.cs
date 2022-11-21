@@ -6,6 +6,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed;
+    public float Max_HP;
+    public float Damage;
 
     // Start is called before the first frame update
     void Start()
@@ -33,4 +35,6 @@ public class PlayerController : MonoBehaviour
             transform.position += Vector3.right * speed * Time.deltaTime;
         }
     }
+
+
 }
